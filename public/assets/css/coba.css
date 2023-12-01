@@ -1,0 +1,201 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Arial";
+	overflow-x: hidden;
+  }
+  
+  /* Only edit this if you know what you are doing! */
+  img {
+	position: absolute;
+	display: block;
+	margin: 0;
+	border: none;
+	padding: 0;
+  }
+  
+  /* Only edit this if you know what you are doing! */
+  div {
+	position: absolute;
+  }
+  
+  #content-container {
+	display: block;
+	position: relative;
+	width: 100%;
+	max-width: 1440px;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0 auto;
+  }
+  
+  #_bg__desktop___1 {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(249.9, 239.7, 239.7, 1);
+  }
+  
+  #rectangle_3 {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0);
+	background: -webkit-linear-gradient(-95.87636349594deg, rgba(68.43, 65.86, 194.65, 1) 0%, rgba(201.02, 157.64, 157.64, 0) 100%);
+	background: -o-linear-gradient(-95.87636349594deg, rgba(68.43, 65.86, 194.65, 1) 0%, rgba(201.02, 157.64, 157.64, 0) 100%);
+	background: -moz-linear-gradient(-95.87636349594deg, rgba(68.43, 65.86, 194.65, 1) 0%, rgba(201.02, 157.64, 157.64, 0) 100%);
+	background: -ms-linear-gradient(-95.87636349594deg, rgba(68.43, 65.86, 194.65, 1) 0%, rgba(201.02, 157.64, 157.64, 0) 100%);
+	background: linear-gradient(-95.87636349594deg, rgba(68.43, 65.86, 194.65, 1) 0%, rgba(201.02, 157.64, 157.64, 0) 100%);
+  }
+  
+  #go_park {
+	top: 3vh;
+	left: 6vw;
+	font-family: Petrona;
+	font-size: 2.5vw;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+  }
+  
+  #home___button {
+	top: 7vh;
+	left: 65%;
+	font-family: Petrona;
+	font-size: 1vw;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+  }
+  
+  #contact___button {
+	top: 7vh;
+	left: 90%;
+	font-family: Petrona;
+	font-size: 1vw;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+  }
+  
+  #cari_parkir___form___thqexclude {
+	position: absolute;
+	top: 5vh;
+	left: 71%;
+  }
+  
+  #cari_parkir___input___thqexclude {
+	width: 30vw;
+	height: 4vh;
+	border-radius: 20px;
+	border: 2px solid #000;
+	padding: 5px;
+	font-family: Petrona;
+	font-size: 1vw;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+  }
+  
+  #cari_parkir___input___thqexclude:focus {
+	outline: none;
+	border-color: #4285f4;
+	box-shadow: 0 0 5px #4285f4;
+  }
+  
+  #cari_parkir___form___thqexclude button[type="submit"] {
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 5px;
+	margin-left: -5px;
+  }
+  
+  #cari_parkir___form___thqexclude button[type="submit"]:hover {
+	background-color: #3e8e41;
+  }
+  
+  #halo__selamat_datang_di_go_park {
+	top: 24vh;
+	left: 6vw;
+	font-family: Petrona;
+	font-size: 2.5vw;
+	font-weight: bold;
+	text-align: left;
+	color: #49ab64;
+  }
+  
+  #website_pencarian_parkir_yang_mudah_dan_cepat {
+	top: 36vh;
+	left: 6vw;
+	font-family: Petrona;
+	font-size: 4vw;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+  }
+  
+  #rectangle_1 {
+	top: 50vh;
+	left: 27%;
+	width: 25vw;
+	height: 12vh;
+	border-radius: 15px;
+	border: 1px solid #2314cf;
+	background: rgba(217, 217, 217, 1);
+  }
+  
+  #rectangle_2 {
+	top: 50vh;
+	left: 5%;
+	width: 24vw;
+	height: 12vh;
+	border-radius: 15px;
+	background: rgba(28.86, 85.95, 196.77, 1);
+  }
+  
+  #_pesan_parkir___button {
+	top: 52vh;
+	left: 32%;
+	font-family: Petrona;
+	font-size: 2vw;
+	font-weight: bold;
+	text-align: left;
+	color: #0d54dc;
+  }
+  
+  #_login_register___button {
+	top: 52vh;
+	left: 7%;
+	font-family: Petrona;
+	font-size: 2vw;
+	font-weight: bold;
+	text-align: left;
+	color: #d6cece;
+  }
+  
+  #image_5 {
+	top: 25vh;
+	left: 60%;
+	width: 35%;
+	height: 50vh;
+  }
+  
+  #image_6 {
+	top: 6vh;
+	left: 72%;
+	width: 1.5vw;
+	height: 1.5vw;
+  }
+  
+  #slice_1 {
+	opacity: 0;
+	top: 48vh;
+	left: 13%;
+	width: 7vw;
+	height: 7vw;
+  }

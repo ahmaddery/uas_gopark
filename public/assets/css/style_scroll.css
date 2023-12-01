@@ -1,0 +1,295 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EFEFEF;
+}
+.slide-container{
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card{
+  border-radius: 25px;
+  background-color: #FFF;
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #4070F4;
+  border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #4070F4;
+}
+.overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+}
+.card-image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 0%;
+  background: #FFF;
+  padding: 3px;
+}
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0%;
+  border: 4px solid #4070F4;
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #4070F4;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background: #265DF2;
+}
+
+.swiper-navBtn{
+  color: #6E93f7;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: #4070F4;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: #6E93f7;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}
+
+.v16_62 {
+  width: 100%;
+  height: 901px;
+  background: linear-gradient(rgba(224,195,195,1), rgba(109,36,36,0));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v25_226 {
+  width: 98px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 55px;
+  left: 800px;
+  font-family: Petrona;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.About {
+  width: 98px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 55px;
+  left: 870px;
+  font-family: Petrona;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.service {
+  width: 98px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 55px;
+  left: 920px;
+  font-family: Petrona;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.contact {
+  width: 98px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 55px;
+  left: 980px;
+  font-family: Petrona;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.search-form {
+  display: inline-block;
+  position: absolute;
+  top: 49px;
+  left: 1050px;
+}
+
+.search-form input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 10px;
+}
+
+.search-form button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+
+
+/* Styling for the entire footer section */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px; /* sesuaikan tinggi dengan kebutuhan */
+  background-color: #333; /* warna latar belakang footer */
+  color: #fff; /* warna teks */
+  text-align: center;
+  padding: 10px;
+}
+
+
+.footer-left img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.footer-left p {
+  font-size: 14px;
+}
+
+.footer-center h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.payment-methods img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.footer-right h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-right li {
+  margin-bottom: 5px;
+}
+
+.footer-right a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-envelope {
+  margin-right: 5px;
+}
+
+.fa-whatsapp {
+  margin-right: 5px;
+}
